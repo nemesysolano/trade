@@ -1,0 +1,6 @@
+﻿  bridge-test.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  bridge-test.vcxproj -> C:\workspaces\trade\bridge\x64\Release\bridge-test.exe

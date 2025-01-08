@@ -1,0 +1,82 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000001d53a66f092, pid=22060, tid=25084
+#
+# JRE version: Java(TM) SE Runtime Environment (20.0.2+9) (build 20.0.2+9-78)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.0.2+9-78, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# Problematic frame:
+# j  jdk.internal.loader.BuiltinClassLoader.findResourceAsStream(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;+35 java.base@20.0.2
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: 
+
+Host: Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz, 8 cores, 15G,  Windows 11 , 64 bit Build 26100 (10.0.26100.2454)
+Time: Wed Dec 25 23:24:07 2024 Venezuela Standard Time elapsed time: 36.195798 seconds (0d 0h 0m 36s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001d52af59310):  JavaThread "main" [_thread_in_Java, id=25084, stack(0x0000009d85490000,0x0000009d85590000)]
+
+Stack: [0x0000009d85490000,0x0000009d85590000],  sp=0x0000009d8558eba0,  free space=1018k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x000001d53a66f092
+
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x00000000861c1a48
+
+
+Registers:
+RAX=0x000001d54ac06bb0, RBX=0x000001d54b070580, RCX=0x00000000861c1a40, RDX=0x0000000080000002
+RSP=0x0000009d8558eba0, RBP=0x0000009d8558ec00, RSI=0x0000009d8558efe0, RDI=0x0000009d8558efe8
+R8 =0x0000000000000002, R9 =0x00007ffae9627afe, R10=0x00007ffa402a7b30, R11=0x000001d54ac1baa0
+R12=0x0000000000000000, R13=0x000001d54b2a5b43, R14=0x0000009d8558ec28, R15=0x000001d52af59310
+RIP=0x000001d53a66f092, EFLAGS=0x0000000000010246
+
+
+Register to memory mapping:
+
+RIP=0x000001d53a66f092 is at code_begin+1650 in an Interpreter codelet
+invokeinterface  185 invokeinterface  [0x000001d53a66ea20, 0x000001d53a66f4b0]  2704 bytes
+RAX=0x000001d54ac06bb0 is a pointer to class: 
+java.util.Map {0x000001d54ac06bb8}
+ - instance size:     2
+ - klass size:        62
+ - access:            public interface abstract 
+ - state:             fully_initialized
+ - name:              'java/util/Map'
+ - super:             'java/lang/Object'
+ - sub:               
+ - nof implementors:  2
+ - arrays:            NULL
+ - methods:           Array<T>(0x000001d54b2178c0)
+ - method ordering:   Array<T>(0x000001d54b217a00)
+ - default_methods:   Array<T>(0x0000000000000000)
+ - local interfaces:  Array<T>(0x000001d54b210170)
+ - trans. interfaces: Array<T>(0x000001d54b210170)
+ - constants:         constant pool [259] {0x000001d54b217038} for 'java/util/Map' cache=0x000001d54b070720
+ - class loader data:  loader data: 0x000001d52afde910 of 'bootstrap'
+ - source file:       'Map.java'
+ - class annotations:       Array<T>(0x0000000000000000)
+ - class type annotations:  Array<T>(0x0000000000000000)
+ - field annotations:       Array<T>(0x0000000000000000)
+ - field type annotations:  Array<T>(0x0000000000000000)
+ - generic signature: '<K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;'
+ - inner classes:     Array<T>(0x000001d54b217890)
+ - nest members:     Array<T>(0x000001d54b217aa0)
+ - permitted subclasses:     Array<T>(0x000001d54b2100f8)
+ - java mirror:       a 'java/lang/Class'{0x0000000715a031a0} = 'java/util/Map'
+ - vtable length      5  (start addr: 0x000001d54ac06d70)
+ - itable length      0 (start addr: 0x000001d54ac06d98)
+ - ---- static fields (0 words):
+ - ---- non-static fields (0 words):
+ - non-static oop maps: 
+RBX={method} {0x000001d54b070588} 'get' '(Ljava/lang/Object;)Ljava/lang/Object;' in 'java/util/Map'
+RCX=

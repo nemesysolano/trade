@@ -1,0 +1,172 @@
+﻿  datetime.cpp
+C:\workspaces\trade\bridge\bridge-test\datetime.cpp(116,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  bridge.cpp
+C:\workspaces\trade\bridge\bridge\datetime.h(21,15): error C2653: 'bridge': is not a class or namespace name
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(21,23): error C2061: syntax error: identifier 'JVMInterface'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(22,37): error C2653: 'bridge': is not a class or namespace name
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(22,45): error C2065: 'JVMInterface': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(22,26): error C2923: 'std::unique_ptr': 'JVMInterface' is not a valid template type argument for parameter '_Ty'
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\datetime.h(22,45):
+      see declaration of 'JVMInterface'
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(22,26): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(22,37): error C2065: 'bridge': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\datetime.h(22,60): error C2955: 'std::unique_ptr': use of class template requires template argument list
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(9,12): error C3646: 'date': unknown override specifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(9,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(16,15): error C2061: syntax error: identifier 'DateTime'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(19,15): error C2061: syntax error: identifier 'DateTime'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(19,3): error C2535: 'bridge::OHLC::OHLC(void)': member function already defined or declared
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\order.h(16,3):
+      see declaration of 'bridge::OHLC::OHLC'
+  
+C:\workspaces\trade\bridge\bridge\order.h(17,9): error C2065: 'date': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(17,4): error C2614: 'bridge::OHLC': illegal member initialization: 'date' is not a base or member
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(20,9): error C2065: 'date': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(20,4): error C2614: 'bridge::OHLC': illegal member initialization: 'date' is not a base or member
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(30,43): error C2065: 'JVMInterface': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(30,32): error C2923: 'std::unique_ptr': 'JVMInterface' is not a valid template type argument for parameter '_Ty'
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\order.h(30,43):
+      see declaration of 'JVMInterface'
+  
+C:\workspaces\trade\bridge\bridge\order.h(30,32): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(30,58): error C2955: 'std::unique_ptr': use of class template requires template argument list
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(31,21): error C2061: syntax error: identifier 'JVMInterface'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(32,27): error C2065: 'Order': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(32,16): error C2923: 'std::unique_ptr': 'Order' is not a valid template type argument for parameter '_Ty'
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\order.h(32,27):
+      see declaration of 'Order'
+  
+C:\workspaces\trade\bridge\bridge\order.h(32,16): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(32,34): error C2955: 'std::unique_ptr': use of class template requires template argument list
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(37,49): error C2065: 'JVMInterface': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(37,38): error C2923: 'std::unique_ptr': 'JVMInterface' is not a valid template type argument for parameter '_Ty'
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\order.h(37,49):
+      see declaration of 'JVMInterface'
+  
+C:\workspaces\trade\bridge\bridge\order.h(37,38): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(37,64): error C2955: 'std::unique_ptr': use of class template requires template argument list
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(38,27): error C2061: syntax error: identifier 'JVMInterface'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(39,27): error C2065: 'Order': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\order.h(39,16): error C2923: 'std::unique_ptr': 'Order' is not a valid template type argument for parameter '_Ty'
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\order.h(39,27):
+      see declaration of 'Order'
+  
+C:\workspaces\trade\bridge\bridge\order.h(39,16): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\order.h(39,34): error C2955: 'std::unique_ptr': use of class template requires template argument list
+  (compiling source file '/bridge.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(24,12): error C3646: 'entryDate': unknown override specifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(24,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(31,16): error C2061: syntax error: identifier 'DateTime'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(34,16): error C2061: syntax error: identifier 'DateTime'
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(34,3): error C2535: 'bridge::Order::Order(void)': member function already defined or declared
+  (compiling source file '/bridge.cpp')
+      C:\workspaces\trade\bridge\bridge\bridge.h(31,3):
+      see declaration of 'bridge::Order::Order'
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(32,14): error C2065: 'entryDate': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(32,4): error C2614: 'bridge::Order': illegal member initialization: 'entryDate' is not a base or member
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(35,14): error C2065: 'entryDate': undeclared identifier
+  (compiling source file '/bridge.cpp')
+  
+C:\workspaces\trade\bridge\bridge\bridge.h(35,4): error C2614: 'bridge::Order': illegal member initialization: 'entryDate' is not a base or member
+  (compiling source file '/bridge.cpp')
+  
+  order.cpp
+C:\workspaces\trade\bridge\bridge\order.cpp(77,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...

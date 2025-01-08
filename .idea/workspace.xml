@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51da86b6-f4bb-4d4a-95f5-43a22edfe722" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/domain/OHLC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/domain/OHLCFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/domain/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/domain/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/order/OrderGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/trade/TradeSimulatorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/trade/TradingSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/copgem/trade/TransactionLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/copgem/trade/TradeSimulatorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/copgem/trade/order/generator/LookbackOrderGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/copgem/trade/order/generator/TrendingOrderGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/copgem/trade/price/ConstPriceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/copgem/trade/price/GaussianPriceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forexsb/EURUSD_D1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forexsb/EURUSD_H1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forexsb/USDJPY_D1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forexsb/USDJPY_H1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/investing/cardano.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/investing/solana.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/investing/usdc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pepperstone/EURUSD_H1_202101040000_202412202300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pepperstone/EURUSD_M1_202404221928_202412202354.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pepperstone/USDJPY_H1_202101040000_202412202300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pepperstone/USDJPY_M1_202404221919_202412202354.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/usdt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/xrp.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2qi3t5x7oFihWMx7tBoTjCDDzE6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspaces/trade/impl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51da86b6-f4bb-4d4a-95f5-43a22edfe722" name="Changes" comment="" />
+      <created>1735131781469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735131781469</updated>
+      <workItem from="1735131783815" duration="1433000" />
+      <workItem from="1735149237281" duration="2381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
